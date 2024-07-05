@@ -36,6 +36,7 @@ method and processing of the results according to their needs. The following opt
     • ORB - the most accurate algorithm, but the slowest; finds copies in different extensions; 
       resistant to rotations, noise, scaling, cropping, lighting changes;
       Recommendation: use on a small dataset.
+      
     • aHash - fast, but less resistant to distortion than pHash;
       dHash – resistant to brightness changes, but sensitive to image rotation;
       mHash is more resistant to changes in brightness and contrast than aHash, and is also more resistant to noise 
@@ -44,5 +45,6 @@ method and processing of the results according to their needs. The following opt
       pHash (set by default) is the most optimal in terms of accuracy and speed.
       Recommendation: use it for faster (compared to ORB) and more accurate (compared to MD5, SHA-1(160), SHA-256, SHA-384, SHA-512) 
       search for similar images.
+      
     • MD5, SHA-1(160), SHA-256, SHA-384, SHA-512 - algorithms are arranged in ascending order of computational cost and accuracy.
       Recommendation: use on a large amount of data to quickly search for absolutely identical images.
