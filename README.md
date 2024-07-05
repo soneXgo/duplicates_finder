@@ -33,6 +33,7 @@ method and processing of the results according to their needs. The following opt
      the source file and its duplicates; deleting duplicates and moving them to another folder;
 
   Based on the results of testing, the following conclusions and recommendations can be made:
+    
     • ORB - the most accurate algorithm, but the slowest; finds copies in different extensions; 
       resistant to rotations, noise, scaling, cropping, lighting changes;
       Recommendation: use on a small dataset.
